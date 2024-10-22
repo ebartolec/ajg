@@ -1,0 +1,2 @@
+FROM pingidentity/pingauthorize:2409
+COPY ../server-profiles/pingauthorize /opt/in
