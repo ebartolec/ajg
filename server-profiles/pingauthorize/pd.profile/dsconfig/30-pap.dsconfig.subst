@@ -1,3 +1,7 @@
+dsconfig set-trust-manager-provider-prop \
+  --provider-name "Blind Trust" \
+  --set enabled:true
+
 dsconfig create-external-server \
 	--server-name pingauthorizepap \
 	--type policy \
@@ -24,7 +28,3 @@ dsconfig create-token-resource-lookup-method \
 	--set evaluation-order-index:9999 \
 	--set scim-resource-type:Users \
 	--set 'match-filter:userName eq "%sub%"'
-
-dsconfig set-trust-manager-provider-prop   \
-    --provider-name "Blind Trust" \
-    --set enabled:true
