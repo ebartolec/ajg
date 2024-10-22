@@ -1,0 +1,14 @@
+ID=00722786
+SCIMOnly=false
+PDPAPI=true
+Product=PingAuthorize
+Version=10.1
+EnforcementType=3
+Tier=Free
+IssueDate=2024-10-07
+ExpirationDate=2024-11-06
+GracePeriod=1
+DeploymentMethod=Traditional
+Organization=Arthur J. Gallagher and Co.
+SignCode=FF0F
+Signature=302C021479578698EC1B657DBD96D811A220AA2233EDCBFF02146E00C52B7A28282F5138F7ABC4C6286E04C4A819
