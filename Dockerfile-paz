@@ -1,4 +1,4 @@
 # from root of repo run:
-# docker buildx build -t pingauthorize . -f Dockerfile-paz  
+# docker buildx build -t pingauthorize . -f Dockerfile-paz
 FROM pingidentity/pingauthorize:2409
 COPY server-profiles/pingauthorize /opt/in
